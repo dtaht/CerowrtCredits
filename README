@@ -1,0 +1,8 @@
+A list consisting of everyone on the mailing lists, registered for 
+the bufferbloat website(s), etc, for formatting in a credits.html file
+
+It is probably incomplete at the moment and generates non-totally working
+html. 
+
+./mkall.sh will generate a credits file that at least parses.
+
