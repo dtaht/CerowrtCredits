@@ -19,8 +19,7 @@ echo '<!DOCTYPE HTML>
 <a href="credits.html">Credits</a> |
 <a href="support.html">Help</a>
 </nav> 
-<div>
-'
+<div>'
 echo '<h2><a href="http://www.bufferbloat.net/projects/bloat">Bufferbloat Project</a></h2>
 <p align="center"><a href="http://gettys.wordpress.com">Jim&nbsp;Gettys</a>
 <a href="http://www.taht.net">Dave&nbsp;Täht</a></p>'
