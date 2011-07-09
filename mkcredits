@@ -2,11 +2,11 @@
 
 CFILE=$1
 
-echo '<div id="columna"></div>
-<div id="columnb"></div>
-<div id="columnc"></div>
-<div id="columnd"></div>
-<div id="columne"></div>'
+#echo '<div id="columna"></div>
+#<div id="columnb"></div>
+#<div id="columnc"></div>
+#<div id="columnd"></div>
+#<div id="columne"></div>'
 
 echo '<div id="wrapper">'
 
@@ -15,11 +15,13 @@ C=`cat $CFILE | wc -l `
 T=$(($C / 5 ))
 
 split -l $T $CFILE /tmp/credits
+echo '<center><table><tr>'
 for i in a b c d e
 do
-echo '<div id="column'$i'">'`cat /tmp/creditsa$i | sed ':a;N;$!ba;s#\n#<br />#g'
-`'</div>'
+echo '<td>'`cat /tmp/creditsa$i | sed ':a;N;$!ba;s#\n#<br />#g'
+`'</td>'
 done
+echo '</tr></table></center>'
 echo '</div>'
 
 rm -f /tmp/creditsa*

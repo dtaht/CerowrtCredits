@@ -12,36 +12,54 @@ echo '<!DOCTYPE HTML>
 </head> 
  
 <div>'
-echo '<h1>CeroWrt Credits</h1>
-<h2><a href="http://www.bufferbloat.net/projects/bloat">Bufferbloat Project</a></h2>
+echo '<center><h1>CeroWrt Credits</h1></center>'
+echo '<p align="center"><i>This release of CeroWrt is dedicated to the memory of <a href="http://tools.ietf.org/html/rfc2468">Jonathon B. Postel</a>, who with his persistence, passion, and equanimity, helped get the Internet this far.</i></p>'
+
+echo '<center><h2><a href="http://www.bufferbloat.net/projects/bloat">Bufferbloat Project</a></h2></center>
 <p align="center"><a href="http://en.wikipedia.org/wiki/Jim_Gettys">Jim&nbsp;Gettys</a>
 <a href="http://www.taht.net">Dave&nbsp;Täht</a></p>'
 
 ./mkcredits bloat.list 
 
 # Do openwrt up right
-echo '<div>'
-echo 'We are deeply indebted to the following members of the Openwrt project for their help on irc and email and for helping create OpenWrt itself:'
-echo '<h2><a href="http://www.openwrt.org">Openwrt</a></h2>'
-# FIXME: Make columnar
-cat openwrt.list | sed ':a;N;$!ba;s#\n#<br />#g'
+echo '<div></div><div><p>&nbsp;</p>'
+echo '<center><i>We are deeply indebted to the following members of the OpenWrt project for their help on irc and email and for helping create OpenWrt itself.</i></center>'
+echo '<center><h2><a href="http://www.openwrt.org">OpenWrt</a></h2></center>'
+echo '<center><table><tr width="98%"><td width="25%">'
+C=`cat openwrt.list | wc -l`
+J=0
+cat openwrt.list | while read x
+do
+echo $x
+J=$(($J + 1))
+[ $J -lt $C ] && echo '</td><td width="25%">'
+done
+echo '</td></tr></table></center>'
 echo '</div>'
 
-echo '<div>'
-# Advisors?
-# FIXME: Make columnar
-echo '<h2>Special Thanks</h2>'
-cat special.list | sed ':a;N;$!ba;s#\n#<br />#g'
+echo '<div><center><h2>Special Thanks</h2></center>'
+echo '<center><table><tr><td width="25%">'
+C=`cat special.list | wc -l`
+J=0
+cat special.list | while read x
+do
+echo $x
+J=$(($J + 1))
+[ $J -lt $C ] && echo '</td><td width="25%">'
+done
+echo '</td></tr></table></center>'
 echo '</div>'
 
 # Assemble the projects
+echo '<div><center><h2>Related Projects</h2><table><tr>'
 for i in bismark iscwrt wisp6
 do
-echo '<div>'
+echo '<td width="33%">'
 cat $i.list | sed ':a;N;$!ba;s#\n#<br />#g'
-echo '</div>'
+echo '</td>'
 done
-echo '<h2>Support</h2>'
+echo '</tr></table></center></div>'
+echo '<center><h2>Support</h2></center>'
 echo '<p>We thank the 
 <a href="http://isc.org">Internet Systems Consortium</a>, 
 <a href="http://www.alcatel-lucent.com">Alcatel-Lucent Bell Labs</a>, 
@@ -51,9 +69,9 @@ echo '<p>We thank the
 <a href="http://www.gatech.edu">Georgia Technical Institute</a> 
 for their support and interest in this work</a>. </p>'
 
-echo '<p> There are no doubt thousands of other contributors uncredited, (notably everyone that developed Unix and Linux!) But if you have been involved in fixing bufferbloat, and we missed you on this list, let us know. </p>'
-echo '<p> This release of CeroWrt is dedicated to the memory of <a href="http://tools.ietf.org/html/rfc2468">Jonathon B. Postel</a>, who with his persistence, passion, and equanimity, helped get the Internet this far. '
+echo '<p> There are no doubt thousands of other contributors uncredited, (notably nearly everyone that developed the Internet, Unix and Linux!) But if you have been involved in fixing bufferbloat, and we missed you on this list, let us know. </p>'
 echo '</div>'
+echo '<!-- The author of the scripts that generated this file freely confesses to be terrible at html and html5 -->'
 echo '<div class="menu">
 <nav>
 <ul role="navigation">
