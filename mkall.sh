@@ -22,7 +22,7 @@ echo '<h2><a href="http://www.bufferbloat.net/projects/bloat">Bufferbloat Projec
 
 # Do openwrt up right
 echo '</div><p>&nbsp;</p>'
-echo '<div class="center"><i>We are deeply indebted to the following members of the OpenWrt project for their help on <abbr title="Internet Relay Chat">IRC</abbr></a> and email and for helping create OpenWrt itself.</i>'
+echo '<div class="center"><i>We are deeply indebted to the following members of the OpenWrt project for their help on <abbr title="Internet Relay Chat">IRC</abbr> and email and for helping create OpenWrt itself.</i>'
 echo '<h2><a href="http://www.openwrt.org">OpenWrt</a></h2>'
 echo '<table><tr><td class="narrow">'
 C=`cat openwrt.list | wc -l`
