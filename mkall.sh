@@ -7,7 +7,7 @@ sort -k +2 -b -f -u bufferbloat.list > bloat.list
 echo '<!DOCTYPE HTML> 
 <head> 
   <title>CeroWrt Credits</title> 
-  <link rel="stylesheet" type="text/css" href="/uberwrt/static/cerowrtstyle.css" /> 
+  <link rel="stylesheet" type="text/css" href="static/cerowrtstyle.css" /> 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head> 
  
@@ -75,7 +75,7 @@ echo '<!-- The author of the scripts that generated this file freely confesses t
 echo '<div class="menu">
 <nav>
 <ul role="navigation">
-<li><a href="/uberwrt/index.html">Home</a>
+<li><a href="index.html">Home</a>
 <li><a href="/bgi-bin/redir.sh">Administer</a>    
 <li><a href="http://www.bufferbloat.net/">About Bufferbloat</a>
 <li><a href="about.html">About UberWrt</a>
