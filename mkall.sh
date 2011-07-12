@@ -53,8 +53,14 @@ echo '</div>'
 echo '<div class="center"><h2>Related Projects</h2><table><tr>'
 for i in bismark iscwrt wisp6
 do
+echo '<th>'`head -1 $i.list`'</th>'
+done
+echo '</tr>
+<tr>'
+for i in bismark iscwrt wisp6
+do
 echo '<td class="wide">'
-cat $i.list | sed ':a;N;$!ba;s#\n#<br />#g'
+tail -n +2 $i.list | sed ':a;N;$!ba;s#\n#<br />\n#g'
 echo '</td>'
 done
 echo '</tr></table></div>'
