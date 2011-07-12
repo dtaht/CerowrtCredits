@@ -22,7 +22,7 @@ echo '<h2><a href="http://www.bufferbloat.net/projects/bloat">Bufferbloat Projec
 
 # Do openwrt up right
 echo '</div><p>&nbsp;</p>'
-echo '<div class="center"><i>We are deeply indebted to the following members of the OpenWrt project for their help on irc and email and for helping create OpenWrt itself.</i>'
+echo '<div class="center"><i>We are deeply indebted to the following members of the OpenWrt project for their help on <abbr title="Internet Relay Chat">IRC</abbr></a> and email and for helping create OpenWrt itself.</i>'
 echo '<h2><a href="http://www.openwrt.org">OpenWrt</a></h2>'
 echo '<table><tr><td class="narrow">'
 C=`cat openwrt.list | wc -l`
@@ -69,7 +69,7 @@ echo '<p>We thank the
 <a href="http://isc.org">Internet Systems Consortium</a>,
 <a href="http://www.alcatel-lucent.com">Alcatel-Lucent Bell Labs</a>,
 <a href="http://www.teklibre.com">Teklibre</a>,
-<a href="http://www.mit.edu">MIT</a>,
+<a href="http://www.mit.edu">Massachusetts Institute of Technology</a>,
 <a href="http://www.stanford.edu">Stanford University</a> and
 <a href="http://www.gatech.edu">Georgia Technical Institute</a>
 for their support and interest in this work.</p>'
