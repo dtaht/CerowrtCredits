@@ -6,7 +6,7 @@ sort -k +2 -b -f -u bufferbloat.list > bloat.list
 (
 echo '<!DOCTYPE HTML> 
 <head> 
-  <title>Cerowrt Credits</title> 
+  <title>CeroWrt Credits</title> 
   <link rel="stylesheet" type="text/css" href="/uberwrt/static/cerowrtstyle.css" /> 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head> 
