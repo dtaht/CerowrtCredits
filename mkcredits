@@ -8,20 +8,20 @@ CFILE=$1
 #<div id="columnd"></div>
 #<div id="columne"></div>'
 
-echo '<div id="wrapper">'
+echo '<div id="wrapper" class="center">'
 
 # Split the input file into 5 pieces
 C=`cat $CFILE | wc -l `
 T=$(($C / 5 ))
 
 split -l $T $CFILE /tmp/credits
-echo '<center><table><tr>'
+echo '<table><tr>'
 for i in a b c d e
 do
 echo '<td>'`cat /tmp/creditsa$i | sed ':a;N;$!ba;s#\n#<br />#g'
 `'</td>'
 done
-echo '</tr></table></center>'
+echo '</tr></table>'
 echo '</div>'
 
 rm -f /tmp/creditsa*
