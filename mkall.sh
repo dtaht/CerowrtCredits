@@ -4,13 +4,13 @@
 sort -k +2 -b -f -u bufferbloat.list > bloat.list
 
 (
-echo '<!DOCTYPE HTML> 
-<head> 
-  <title>CeroWrt Credits</title> 
-  <link rel="stylesheet" type="text/css" href="static/cerowrtstyle.css" /> 
+echo '<!DOCTYPE HTML>
+<head>
+  <title>CeroWrt Credits</title>
+  <link rel="stylesheet" type="text/css" href="static/cerowrtstyle.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head> 
- 
+</head>
+
 <div>'
 echo '<center><h1>CeroWrt Credits</h1></center>'
 echo '<p align="center"><i>This release of CeroWrt is dedicated to the memory of <a href="http://tools.ietf.org/html/rfc2468">Jonathon B. Postel</a>, who with his persistence, passion, and equanimity, helped get the Internet this far.</i></p>'
@@ -19,7 +19,7 @@ echo '<center><h2><a href="http://www.bufferbloat.net/projects/bloat">Bufferbloa
 <p align="center"><a href="http://en.wikipedia.org/wiki/Jim_Gettys">Jim&nbsp;Gettys</a>
 <a href="http://www.taht.net">Dave&nbsp;Täht</a></p>'
 
-./mkcredits bloat.list 
+./mkcredits bloat.list
 
 # Do openwrt up right
 echo '<div></div><div><p>&nbsp;</p>'
@@ -60,14 +60,14 @@ echo '</td>'
 done
 echo '</tr></table></center></div>'
 echo '<center><h2>Support</h2></center>'
-echo '<p>We thank the 
-<a href="http://isc.org">Internet Systems Consortium</a>, 
-<a href="http://www.alcatel-lucent.com">Alcatel-Lucent Bell Labs</a>, 
-<a href="http://www.teklibre.com">Teklibre</a>, 
-<a href="http://www.mit.edu">MIT</a>, 
-<a href="http://www.stanford.edu">Stanford University</a> and 
-<a href="http://www.gatech.edu">Georgia Technical Institute</a> 
-for their support and interest in this work</a>. </p>'
+echo '<p>We thank the
+<a href="http://isc.org">Internet Systems Consortium</a>,
+<a href="http://www.alcatel-lucent.com">Alcatel-Lucent Bell Labs</a>,
+<a href="http://www.teklibre.com">Teklibre</a>,
+<a href="http://www.mit.edu">MIT</a>,
+<a href="http://www.stanford.edu">Stanford University</a> and
+<a href="http://www.gatech.edu">Georgia Technical Institute</a>
+for their support and interest in this work</a>.</p>'
 
 echo '<p> There are no doubt thousands of other contributors uncredited, (notably nearly everyone that developed the Internet, Unix and Linux!) But if you have been involved in fixing bufferbloat, and we missed you on this list, let us know. </p>'
 echo '</div>'
@@ -76,13 +76,13 @@ echo '<div class="menu">
 <nav>
 <ul role="navigation">
 <li><a href="index.html">Home</a>
-<li><a href="/bgi-bin/redir.sh">Administer</a>    
+<li><a href="/bgi-bin/redir.sh">Administer</a>
 <li><a href="http://www.bufferbloat.net/">About Bufferbloat</a>
 <li><a href="about.html">About UberWrt</a>
 <li><a href="credits.html">Credits</a>
 <li><a href="support.html">Help</a>
 </ul>
-</nav> 
+</nav>
 </div>
 </body>
 </html>'
