@@ -71,7 +71,7 @@ echo '<p>We thank the
 <a href="http://www.teklibre.com">Teklibre</a>,
 <a href="http://www.mit.edu">Massachusetts Institute of Technology</a>,
 <a href="http://www.stanford.edu">Stanford University</a> and
-<a href="http://www.gatech.edu">Georgia Technical Institute</a>
+<a href="http://www.gatech.edu">Georgia Tech</a>
 for their support and interest in this work.</p>'
 
 echo '<p> There are no doubt thousands of other contributors uncredited, (notably nearly everyone that developed the Internet, Unix and Linux!) But if you have been involved in fixing bufferbloat, and we missed you on this list, let us know. </p>'
