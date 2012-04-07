@@ -12,7 +12,9 @@ echo '<!DOCTYPE HTML>
 </head>
 <body>'
 echo '<div class="center"><h1>CeroWrt Credits</h1>'
-echo '<p><i>This release of CeroWrt is dedicated to the memory of <a href="http://tools.ietf.org/html/rfc2468">Jonathon B. Postel</a>, who with his persistence, passion, and equanimity, helped get the Internet this far.</i></p>'
+echo '<p><i>This release of CeroWrt is dedicated to <a href="http://www.spcecdt.com/">John H Dubois</a>, who spread email and netnews through Santa Cruz, Ca, <a href="http://armory.com">housed many a geek</a>, and brought <a href="http://www.armory.com/~spcecdt/cooking/recipes/chocolateIceCream.html">liquid nitrogen ice cream</a> to Burning Man...</i></p><p><i>
+And to <a href="http://digital-rag.com/">Richard Pitt</a>, who helped bring the Internet to western Canada, wrote the Digital Rag, and put <a href="http://www.hancockwildlife.org/">webcams in eagles nests</a>. </i></p>'
+
 
 echo '<h2><a href="http://www.bufferbloat.net/projects/bloat">Bufferbloat Project</a></h2>
 <p><a href="http://en.wikipedia.org/wiki/Jim_Gettys">Jim&nbsp;Gettys</a>
