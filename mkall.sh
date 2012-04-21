@@ -54,7 +54,7 @@ echo '<p>We thank the
 <a href="http://isc.org">Internet Systems Consortium</a>,
 <a href="http://www.alcatel-lucent.com">Alcatel-Lucent Bell Labs</a>,
 <a href="http://www.teklibre.com">Teklibre</a>,
-<a href="http://www.intermapper.com">Intermapper</a>,
+<a href="http://www.intermapper.com">InterMapper</a>,
 <a href="http://www.candelatech.com">Candela</a>,
 <a href="http://www.comcast.com">Comcast</a>,
 <a href="http://www.mit.edu">Massachusetts Institute of Technology</a>,
