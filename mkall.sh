@@ -18,20 +18,20 @@ echo '<p><i>This release of CeroWrt is dedicated to the memory of <a href="http:
 echo '</div><p>&nbsp;</p>'
 echo '<div class="center"><i>We are deeply indebted to the following members of the OpenWrt project for their help on <abbr title="Internet Relay Chat">IRC</abbr> and email and for helping create OpenWrt itself.</i>'
 echo '<h2><a href="http://www.openwrt.org">OpenWrt</a></h2>'
-echo '<table><tr><td class="narrow">'
+echo '<table><tr><td>'
 C=`cat openwrt.list | wc -l`
 J=0
 cat openwrt.list | while read x
 do
 echo $x
 J=$(($J + 1))
-[ $J -lt $C ] && echo '</td><td class="narrow">'
+[ $J -lt $C ] && echo '</td><td>'
 done
 echo '</td></tr></table>'
 echo '</div>'
 
 echo '<center><h2><a href="http://www.bufferbloat.net/projects/bloat">Bufferbloat Project</a></h2>
-<p><a href="http://en.wikipedia.org/wiki/Jim_Gettys">Jim&nbsp;Gettys</a>
+<p><a href="http://gettys.wordpress.com/">Jim&nbsp;Gettys</a>
 <a href="http://www.taht.net">Dave&nbsp;Täht</a></p></center>'
 
 ./mkcredits bloat.list
@@ -53,15 +53,16 @@ echo '<div class="center"><h2>Support</h2></div>'
 echo '<p>We thank the
 <a href="http://isc.org">Internet Systems Consortium</a>,
 <a href="http://www.alcatel-lucent.com">Alcatel-Lucent Bell Labs</a>,
-<a href="http://www.teklibre.com">Teklibre</a>,
-<a href="http://www.intermapper.com">InterMapper</a>,
 <a href="http://www.candelatech.com">Candela</a>,
 <a href="http://www.comcast.com">Comcast</a>,
+<a href="http://www.google.com">Google</a>,
+<a href="http://www.intermapper.com">InterMapper</a>,
+<a href="http://www.teklibre.com">Teklibre</a>,
 <a href="http://www.mit.edu">Massachusetts Institute of Technology</a>,
 <a href="http://www.stanford.edu">Stanford University</a>,
 <a href="http://www.gatech.edu">Georgia Tech</a>, and
 <a href="http://www.lincs.fr">the Lincs lab</a>
-for their support and interest in this work.</p>'
+for their support and interest in the bufferbloat work.</p>'
 
 echo '<p> There are no doubt thousands of other contributors uncredited, (notably nearly everyone that developed the Internet, Unix and Linux!) But if you have been involved in fixing bufferbloat, and we missed you on this list, let us know. </p>'
 echo '<!-- The author of the scripts that generated this file freely confesses to be terrible at html and html5 -->'
