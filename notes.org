@@ -1,0 +1,3 @@
+list_member -f list_name to get the list
+sort -fu is case insensitive sort
+the perl stuff helps

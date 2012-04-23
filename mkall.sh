@@ -15,7 +15,7 @@ echo '<div class="center"><h1>CeroWrt Credits</h1>'
 echo '<p><i>This release of CeroWrt is dedicated to the memory of <a href="http://www.spcecdt.com/">John H Dubois</a>, who spread email and netnews through Santa Cruz, Ca, <a href="http://armory.com">housed many a geek</a>, and brought <a href="http://www.armory.com/~spcecdt/cooking/recipes/chocolateIceCream.html">liquid nitrogen ice cream</a> to Burning Man...</i></p><p><i> And to <a href="http://digital-rag.com">Richard Pitt</a>, who helped bring the Internet to western Canada, wrote <a href="http://digital-rag.com/article.php/Buffer-Bloat-Packet-Loss">the Digital Rag</a>, and put <a href="http://www.hancockwildlife.org/article.php/RichardPittFund">webcams in eagles nests</a>. </i></p>'
 
 # Do openwrt up right
-echo '</div><p>&nbsp;</p>'
+echo '</div>'
 echo '<div class="center"><i>We are deeply indebted to the following members of the OpenWrt project for their help on <abbr title="Internet Relay Chat">IRC</abbr> and email and for helping create OpenWrt itself.</i>'
 echo '<h2><a href="http://www.openwrt.org">OpenWrt</a></h2>'
 echo '<table><tr><td>'
