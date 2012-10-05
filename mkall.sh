@@ -2,6 +2,7 @@
 
 # sort on last name
 sort -k +2 -b -f -u bufferbloat.list > bloat.list
+sort -k +2 -b -f -u donors.list subs.list > subscribers.list
 
 (
 echo '<!DOCTYPE HTML>
@@ -26,6 +27,27 @@ do
 echo $x
 J=$(($J + 1))
 [ $J -lt $C ] && echo '</td><td>'
+done
+echo '</td></tr></table>'
+echo '</div>'
+echo '<div class="center">The CeroWrt effort would have died without the timely intervention and financial support of the following</div>'
+echo '<div class="center"><h2>Donors and Subscribers</h2></div>'
+echo '<table><tr><td class="narrow">'
+C=`cat subscribers.list | wc -l`
+J=0
+K=0
+cat subscribers.list | while read x
+do
+echo $x
+J=$(($J + 1))
+K=$(($K + 1))
+if [ $K -gt 3 ] 
+then
+	echo '</td></tr><tr><td>'
+	K=0
+else
+	echo '</td><td>'
+fi
 done
 echo '</td></tr></table>'
 echo '</div>'
