@@ -91,7 +91,7 @@ echo '<p>We thank the
 <a href="http://www.ubuntu.com">Ubuntu</a>,
 <a href="http://www.vyatta.com">Vyatta</a>
 <a href="http://www.wushnet.net">Wushnet</a>, and
-<a href="http://www.yandex.ru">Yandex</a>
+<a href="http://www.yandex.com">Yandex</a>
 for their support of and interest in the bufferbloat work.</p>'
 
 echo '<p> There are no doubt thousands of other contributors uncredited, (notably nearly everyone that developed the Internet, Unix and Linux!) But if you have been involved in fixing bufferbloat, and we missed you on this list, let us know. </p>'
