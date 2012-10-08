@@ -82,14 +82,14 @@ echo '<p>We thank the
 <a href="http://www.gatech.edu">Georgia Institute of Technology</a>,
 <a href="http://www.google.com">Google</a>,
 <a href="http://www.intermapper.com">InterMapper</a>,
-<a href="http://www.ipfire.com">IPFire</a>,
+<a href="http://www.ipfire.org">IPFire</a>,
 <a href="http://www.lincs.fr">Lincs Lab</a>,
 <a href="http://www.mit.edu">Massachusetts Institute of Technology</a>,
 <a href="http://www.redhat.com">RedHat</a>,
 <a href="http://www.stanford.edu">Stanford University</a>,
 <a href="http://www.teklibre.com">Teklibre</a>,
 <a href="http://www.ubuntu.com">Ubuntu</a>,
-<a href="http://www.vyatta.com">Vyatta</a>
+<a href="http://www.vyatta.com">Vyatta</a>,
 <a href="http://www.wushnet.net">Wushnet</a>, and
 <a href="http://www.yandex.com">Yandex</a>
 for their support of and interest in the bufferbloat work.</p>'
