@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # sort on last name
-sort -k +2 -b -f -u bufferbloat.list > bloat.list
+sort -u bufferbloat.list | sort -k +2 -b -f bufferbloat.list > bloat.list
 sort -k +2 -b -f -u donors.list subs.list > subscribers.list
 
 (
