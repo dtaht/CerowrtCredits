@@ -13,7 +13,7 @@ echo '<!DOCTYPE HTML>
 </head>
 <body>'
 echo '<div class="center"><h1>CeroWrt Credits</h1>'
-echo '<p><i>This release of CeroWrt is dedicated to the memory of <a href="http://www.spcecdt.com/">John H Dubois</a>, who spread email and netnews through Santa Cruz, Ca, <a href="http://www.armory.com">housed many a geek</a>, and brought <a href="http://www.armory.com/~spcecdt/cooking/recipes/chocolateIceCream.html">liquid nitrogen ice cream</a> to Burning Man... And to <a href="http://digital-rag.com">Richard Pitt</a>, who helped bring the Internet to western Canada, wrote <a href="http://digital-rag.com/article.php/Buffer-Bloat-Packet-Loss">the Digital Rag</a>, and put <a href="http://www.hancockwildlife.org/article.php/RichardPittFund">webcams in eagles nests</a>. And to <a href="http://ronsravings.blogspot.com">Ronald Täht</a>, who taught me more than he ever understood.</i></p>'
+echo '<p><i>This release of CeroWrt is dedicated to the memory of Dion L Johnson, the "Czar of Free Stuff", who introduced me to the concept of a "Skunkworks" with <a href="http://en.wikipedia.org/wiki/SCO_Skunkware">Skunkware</a>. The <a href="ftp://ftp2.sco.com/skunkware/tmp/credits.html">Skunkware team</a> he built kept the company relevant, and nobody cared, except for <a href="http://www.youtube.com/watch?v=QECNF-GxbDQ">Ezekiel Kludge</a> . I am grateful for everything I learned from him, which I have now tried to pass down in building the bufferbloat effort and the CeroWrt team. '
 
 # Do openwrt up right
 echo '</div>'
