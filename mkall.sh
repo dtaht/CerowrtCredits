@@ -13,7 +13,7 @@ echo '<!DOCTYPE HTML>
 </head>
 <body>'
 echo '<div class="center"><h1>CeroWrt Credits</h1>'
-echo '<p><i>This release of CeroWrt is dedicated to the memory of Dion L Johnson, the "Czar of Free Stuff", who introduced me to the concept of a "Skunkworks" with <a href="http://en.wikipedia.org/wiki/SCO_Skunkware">Skunkware</a>. The <a href="ftp://ftp2.sco.com/skunkware/tmp/credits.html">Skunkware team</a> he built kept the company relevant, and nobody cared, except for <a href="http://www.youtube.com/watch?v=QECNF-GxbDQ">Ezekiel Kludge</a> . I am grateful for everything I learned from him, which I have now tried to pass down in building the bufferbloat effort and the CeroWrt team. '
+echo '<p><i>This release of CeroWrt is dedicated to the memory of Dion L Johnson, the "Czar of Free Stuff", who introduced me to the concept of a "Skunkworks" with <a href="http://en.wikipedia.org/wiki/SCO_Skunkware">Skunkware</a>. The <a href="ftp://ftp2.sco.com/skunkware/tmp/credits.html">Skunkware team</a> he built kept the company relevant, and nobody cared, except for <a href="http://www.youtube.com/watch?v=QECNF-GxbDQ">Ezekiel Kludge</a> . I am grateful for everything I learned from him, which I have now tried to pass down in building the bufferbloat effort and the CeroWrt team.</p></i> '
 
 # Do openwrt up right
 echo '</div>'
